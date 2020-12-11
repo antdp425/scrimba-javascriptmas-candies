@@ -1,5 +1,5 @@
 function candies(children, candy) {
-   //  write code here.
+   return candy - Math.floor(candy % children)
 }
 
 
